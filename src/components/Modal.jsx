@@ -5,13 +5,17 @@ function Modal() {
             <dialog id="item_id" className="modal">
                 <div className="modal-box max-h-3/4">
                     {/* Modal Content */}
-                    <div className="font-bold">Add Wishlist Item </div>
-                    <div className="text-sm font-semibold text-gray-800 mb-1">User</div>
-                    <input type="text" placeholder="Enter user item" className="input-bordered w-full bg-gray-50 placeholder-gray-400 p-1"/>
+                    <div className="font-bold text-3xl mb-6">Add Wishlist Item </div>
+                    <div className=" font-semibold text-gray-800 mb-1">User</div>
+                    <input type="text" placeholder="Enter user item" className="border rounded-box input-bordered w-full border-gray-200 placeholder-gray-400 p-2 mb-4"/>
                     
                     
-                    <h3 className="font-bold text-lg">items here</h3>
-                    <p className="py-4">press esc key or click the button below to close</p>
+                    <h3 className="font-semibold text-gray-800 mb-1">Item Name</h3>
+                    <input type="text" placeholder="Enter item name" className="border rounded-box input-bordered w-full border-gray-200 placeholder-gray-400 p-2 mb-4"/>
+
+                    <h3 className="font-semibold text-gray-800 mb-1">Description</h3>
+                    <textarea type="text" placeholder="Enter item description" className="border rounded-box input-bordered w-full border-gray-200 placeholder-gray-400 h-30 mb-8 p-2 align-items: flex-start"/>
+                    
                     
                     <p className="font-semibold text-lg mb-5">Weighted Decision Matrix</p>
                     <p className="text-sm text-gray-500">Rate each criterion from 1 (lowest) to 5 (highest)</p>
